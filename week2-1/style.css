@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+}
+
+table{
+    border:1px solid black;
+    width: 60%;
+    margin: auto;
+    font-size: 1.5em;
+    border: 5px groove black;        
+}
+
+tr:nth-child(even) {
+    
+        background: #CCC
+}
+
+tr:nth-child(odd) {
+        background-color: #FAFAFA;
+    }
+    
+
+
+#fix{
+    margin: 50px;
+}
+
+th{
+    border: 2px solid gray;
+}
+
+tr:hover{
+
+    background-color: lightskyblue;
+    
+    color: #000000;
+ }
